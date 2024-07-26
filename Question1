@@ -87,3 +87,5 @@ if __name__ == "__main__":
     earliest, latest = scheduler.calculate_critical_path()
     print(f"Earliest completion time: {earliest}")
     print(f"Latest completion time: {latest}")
+#Overall Space Complexity: 𝑂(𝑉+𝐸)
+#Overall Time Complexity: O(V+E)
