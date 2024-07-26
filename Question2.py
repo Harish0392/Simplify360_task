@@ -83,3 +83,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+"""Time Complexity:
+add_friendship: O(E)
+find_common_friends: O(min(F1,F2)) per query
+find_nth_connection: O(V+E) per query
+
+Space Complexity:
+Adjacency List: O(V+E)
+find_friends: O(1) per query
+find_common_friends: O(min(F1,F2)) per query
+find_nth_connection: O(V) per query """
